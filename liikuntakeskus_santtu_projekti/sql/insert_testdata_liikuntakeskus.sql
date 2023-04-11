@@ -1,0 +1,12 @@
+INSERT INTO ryhmaliikunta
+(nimi, kuvaus, tyyppi, kesto, hinta, ohjaaja, paikka)
+VALUES
+('Astangajooga', 'Astanga on fyysisesti haastava ja dynaaminen joogamuoto. Harjoitukset tehdään ilman välirentoutuksia siten, että hengitys sitoo liikeradat ja asennot liikesarjaksi. Astangajooga kehittää kehon ja mielen tasapainoa sekä läsnäolon taitoa.', 'Jooga', 75, 12.50, 'Jenni Joogi', 'Tyynisali'),
+('Flow-jooga', 'Flow-jooga on virtaavaa joogaa, joka kehittää liikkuvuutta, tasapainoa ja kehonhallintaa. Tunnilla tehtävät harjoitukset lämmittävät ja avaavat kehoa sekä rauhoittavat mieltä.', 'Jooga', 60, 10, 'Niilo Notkia', 'Tyynisali'),
+('Pilates', 'Pilateksessa huolletaan kehoa erityisesti syviä lihaksia vahvistamalla. Pääset kehittämään ryhtiä ja kehonhallintaa, vahvistut ja saat kehon kireyksiä hellittämään. Pilatestunnilla työskennellään keskittyneesti ja hyödynnetään pilatesharjoittelulle ominaista hengitystä.', 'Pilates', 60, 10, 'Pauli Pallea', 'Peilisali 2'),
+('Kehonhuolto', 'Kehonhuoltotunti auttaa sinua palautumaan rasituksesta, lisäämään liikkuvuutta ja vetreyttä sekä parantamaan kehonhallintaa. Tunneilla voidaan käyttää erilaisia välineitä kehonhuollon apuna.', 'Kehonhuolto ja liikkuvuus', 60, 10, 'Harri Huoleton', 'Peilisali 2'),
+('Baletti', 'Aikuisbalettissa harjoitellaan klassisen baletin perusliikkeitä, jotka kehittävät koordinaatiota, kehonhallintaa ja -linjausta sekä tasapainoa. Tunneilla tehdään sekä tanko- että keskilattiaharjoituksia.', 'Tanssi', 90, 15, 'Bea Basso', 'Liikuntasali 1'),
+('Body', 'Body on kaikille sopiva jumppatunti. Helpon ja tehokkaan alkulämmittelyn jälkeen tunnilla tehdään lihaskunto-osuus, jossa käytetään erilaisia välineitä. Tunnilla ei tehdä askelsarjoja. Tunnilla liikutaan mukaansatempaavan musiikin tahtiin.', 'Voima ja kestävyys', 45, 10.00, 'Panu Puunaja', 'Liikuntasali 2'),
+('Circuit Training', 'Circuit Training on tehokas kiertoharjoittelutunti, jossa tehdään sykkeen kohotuksia ja lihaskuntoliikkeitä oman kehon painolla sekä välineillä mukaansatempaavan musiikin tahtiin.', 'Voima ja kestävyys', 30, 5, 'Kiki Kekkonen', 'Liikuntasali 1'),
+('Spinning', 'Vihreällä Spin -tunnilla hengästyt uupumatta ja kehität kuntoasi. Tunti luo myös hyvän pohjan osallistua raskaammille tunneille. Tunti on vaihteleva, mutta ei sisällä raskaita nousuja eikä spurtteja.', 'Spinning', 75, 12.50, 'Sauli Sulava', 'Spinningsali'),
+('Jumppapallo-jumppa', 'Hauska tunti lapsille.', 'Lasten liikunta', 45, 7.50, 'Jenni Jumppanen', 'Peilisali 1');
